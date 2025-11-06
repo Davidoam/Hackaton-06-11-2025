@@ -5,6 +5,7 @@ public class Main {
        Scanner sc = new Scanner (System.in);
        System.out.println("Ingrese un número para la cantidad de filas y columnas que quiere: ");
        int num_usuario = sc.nextInt();
+       boolean es_identidad;
        boolean validar ;
        char [][] matriz= new char[num_usuario][num_usuario];
        if(validar = (num_usuario >= 2 && num_usuario <= 50)){
